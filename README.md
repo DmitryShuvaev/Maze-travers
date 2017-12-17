@@ -10,11 +10,7 @@ Maze m;
     m.printMaze();
 m.printPos();
 int i=0;
-/*
-while ( i<63) {
- m.move();i++;
-}
-*/
+
 m.mazeTravers(m.maze,12);
     return a.exec();
 }
